@@ -120,13 +120,13 @@ function EditAuctionAdmin() {
       <input type="number" name="price" required onChange={priceHandel} defaultValue={pricee}/> 
 
       <span>Date start <span className="required">*</span></span>
-      <input type="date" name="start"  required onChange={startHandel}/> 
+      <input type="date" name="start"  required onChange={startHandel} defaultValue={startt}/> 
 
       <span>End Date  <span className="required">*</span></span>
-      <input type="date" name="end"  required onChange={endHandel} defaultValue={startt}/> 
+      <input type="date" name="end"  required onChange={endHandel} defaultValue={endd}/> 
 
  <span>Is Accept  <span className="required">*</span></span>
- <input type="number" name="isacc" min={0} max={1} required onChange={isaccHandel} defaultValue={endd}/> 
+ <input type="number" name="isacc" min={0} max={1} required onChange={isaccHandel} /> 
     <button type="submit">Confirm add </button>
   </form>
   </div>
