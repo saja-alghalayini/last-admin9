@@ -22,7 +22,7 @@ function AddUserAdmin() {
 
     const handleSubmit =(e)=>{
         e.preventDefault();
-        axios.post('http://localhost/last_admin9/API/adduser.php?username='+username+'&email='+email+'&phone='+phone+'&password='+password+'&address='+address)
+        axios.post('http://localhost/last-admin9\API\adduser.php?username='+username+'&email='+email+'&phone='+phone+'&password='+password+'&address='+address)
         .then((data) => {
             console.log("success!");
             setSubmit(!isSubmit)

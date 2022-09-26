@@ -10,7 +10,7 @@ body {
 /* #b88b68 */
 /* Style the header */
 .ad-header {
-  background-color: #262526ee;
+  background-color: #ffffffee;
   padding: 18px;
   text-align: center;
   font-size: 24px;
@@ -27,7 +27,7 @@ height: 84.4vh;}
   float: left;
   width: 15%;
   /*height: 300px;  only for demonstration, should be removed */
-  background: rgb(38, 37, 38);
+  background: #181818;
   /* padding: 20px; */
   height: 84.4vh;
 }
@@ -41,7 +41,7 @@ height: 84.4vh;}
 .ad-aa{font-size: 20px;
 font-weight: bold;
 padding: 10px;
-color: #fff;
+color: #DFB163;
 }
 
 .ad-nav li{padding: 4%;

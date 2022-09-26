@@ -15,7 +15,7 @@ function Comment(props) {
 }, [comment]);
 
 function getComment(){
-  axios.get(`http://localhost/last_admin9/API/admincomment.php`)
+  axios.get(`http://localhost/last-admin9\API\admincomment.php`)
     // console.log(aa)
     .then((res) => {
       //  console.log(res)

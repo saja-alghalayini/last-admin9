@@ -18,7 +18,7 @@ function Auction(props) {
 }, [aution]);
 
     function getauction(){
-    axios.get(`http://localhost/last_admin9/API/adminauction.php`)
+    axios.get(`http://localhost/last-admin9\API\adminauction.php`)
       // console.log(aa)
       .then((res) => {
         //  console.log(res)
@@ -28,7 +28,7 @@ function Auction(props) {
   }
 
   const deleteAuction=(postId)=>{
-    axios.delete(`http://localhost/last_admin9/API/deleteauction.php?id=`+postId)
+    axios.delete(`http://localhost/last-admin9\API\deleteauction.php?id=`+postId)
     .then(function(res){
       console.log(res.data);
       const info = res.data;

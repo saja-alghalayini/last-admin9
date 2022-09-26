@@ -9,7 +9,7 @@ function Dashboard() {
   const [aution, setAution] = useState('');
  
     useEffect(() => {
-      axios.get(`http://localhost/last_admin9/API/count.php`)
+      axios.get(`http://localhost/last-admin9\API\count.php`)
       .then((res) => {
         const info = res.data;
         setAution(info);

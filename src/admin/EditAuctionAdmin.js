@@ -41,7 +41,7 @@ function EditAuctionAdmin() {
 
         const handleSubmit =(e)=>{
             e.preventDefault();
-            axios.post('http://localhost/last_admin9/API/editauction.php?id='+postId+'&name='+name+'&des='+des+'&img='+img+'&price='+price+'&start='+start+'&end='+end+'&isacc='+isacc)
+            axios.post('http://localhost/last-admin9\API\editauction.php?id='+postId+'&name='+name+'&des='+des+'&img='+img+'&price='+price+'&start='+start+'&end='+end+'&isacc='+isacc)
             
             .then((data) => {
                 console.log("success!");

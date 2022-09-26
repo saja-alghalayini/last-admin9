@@ -35,7 +35,7 @@ function EditUserAdmin() {
 
         const handleSubmit =(e)=>{
             e.preventDefault();
-            axios.post('http://localhost/last_admin9/API/editUserAdmin.php?id='+uId+'&username='+username+'&email='+email+'&phone='+phone+'&address='+address+'&password='+password)
+            axios.post('http://localhost/last-admin9\API\editUserAdmin.php?id='+uId+'&username='+username+'&email='+email+'&phone='+phone+'&address='+address+'&password='+password)
             
             .then((data) => {
                 console.log("success!");

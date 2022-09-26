@@ -78,7 +78,7 @@ function AddAuctionAdmin() {
     const handleSubmit =(e)=>{
         e.preventDefault();
         // axios.post('http://localhost/redux-project9/API/adduser.php', inputs)
-        axios.post('http://localhost/last_admin9/API/addauction.php?name='+name+'&des='+des+'&img='+img+'&price='+price+'&start='+start+'&end='+end)
+        axios.post('http://localhost/last-admin9\API\addauction.php?name='+name+'&des='+des+'&img='+img+'&price='+price+'&start='+start+'&end='+end)
         
         .then((data) => {
             console.log("success!");
